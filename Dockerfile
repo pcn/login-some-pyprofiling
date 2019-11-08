@@ -32,4 +32,4 @@ RUN . /login/bin/activate && \
     make && make install
     
 COPY generate_data.py /data/
-COPY basic_stats.py
+COPY basic_stats.py /data/
